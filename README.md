@@ -1,5 +1,11 @@
 # NFC Smart Attendance System using ESP32
 
+![ESP32](https://img.shields.io/badge/ESP32-IoT-blue)
+![NFC](https://img.shields.io/badge/NFC-PN532-green)
+![IoT](https://img.shields.io/badge/Project-IoT-orange)
+![Google Sheets](https://img.shields.io/badge/Cloud-Google%20Sheets-brightgreen)
+![Arduino IDE](https://img.shields.io/badge/Platform-Arduino_IDE-red)
+
 An IoT-based smart attendance system using ESP32 and PN532 NFC module with real-time Google Sheets attendance logging.
 
 ---
@@ -89,7 +95,7 @@ NFC Card → PN532 Reader → ESP32 Processing → LCD Display → Google Sheets
 
 ## Demo Video
 
-🎥 Watch Full Project Demonstration Here:
+🎥 Watch Full Project Demonstration Here:  
 https://drive.google.com/drive/folders/1gvkyzoMu4XFRcDnWOnLlBFmiznTZaqVn?usp=sharing
 
 ---
@@ -134,6 +140,7 @@ NFC-Smart-Attendance-System/
 ---
 
 ## Author
-**Soumya Sarangi** 
+
+**Soumya Sarangi**
 
 ---
