@@ -73,13 +73,14 @@ NFC Card → PN532 Reader → ESP32 Processing → LCD Display → Google Sheets
 ## Project Images
 
 ### Hardware Setup
-![Hardware Setup](images/setup.jpg)
+![Hardware Setup](images/20260304_232708.jpg)
+![Hardware Setup](images/20260304_232815.jpg)
 
 ### NFC Card Scanning
-![NFC Scan](images/nfc-scan.jpg)
+![NFC Scan](images/IMG_20260304_233436_215.jpg)
 
 ### LCD Attendance Display
-![LCD Output](images/lcd-output.jpg)
+![LCD Output](images/IMG_20260304_233438_726.jpg)
 
 ### Google Sheets Attendance Logging
 ![Google Sheets Update](images/sheets-attendance-update.png)
@@ -133,8 +134,6 @@ NFC-Smart-Attendance-System/
 ---
 
 ## Author
-**Soumya Sarangi**  
-
-VIT Bhopal University
+**Soumya Sarangi** 
 
 ---
