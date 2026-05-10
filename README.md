@@ -1,10 +1,10 @@
 # NFC Smart Attendance System using ESP32
 
-![ESP32](https://img.shields.io/badge/ESP32-IoT-blue)
-![NFC](https://img.shields.io/badge/NFC-PN532-green)
-![IoT](https://img.shields.io/badge/Project-IoT-orange)
-![Google Sheets](https://img.shields.io/badge/Cloud-Google%20Sheets-brightgreen)
-![Arduino IDE](https://img.shields.io/badge/Platform-Arduino_IDE-red)
+![ESP32](https://img.shields.io/badge/ESP32-Embedded-blue?style=for-the-badge)
+![NFC](https://img.shields.io/badge/NFC-PN532-green?style=for-the-badge)
+![IoT](https://img.shields.io/badge/IoT-Enabled-orange?style=for-the-badge)
+![Google Sheets](https://img.shields.io/badge/Cloud-Google%20Sheets-brightgreen?style=for-the-badge)
+![Arduino IDE](https://img.shields.io/badge/Platform-Arduino_IDE-red?style=for-the-badge)
 
 An IoT-based smart attendance system using ESP32 and PN532 NFC module with real-time Google Sheets attendance logging.
 
