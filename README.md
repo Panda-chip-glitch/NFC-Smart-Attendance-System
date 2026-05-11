@@ -53,6 +53,7 @@ The attendance data is updated in real-time to Google Sheets using WiFi connecti
 - Embedded Systems
 - Internet of Things (IoT)
 - NFC Communication
+- SPI Communication Protocol
 - WiFi Networking
 - Google Sheets API
 - Arduino IDE
@@ -76,6 +77,29 @@ NFC Card → PN532 Reader → ESP32 Processing → LCD Display → Google Sheets
 
 ---
 
+## Circuit Diagram
+
+The PN532 NFC module communicates with the ESP32 using SPI protocol for reliable and fast data transfer.
+
+![Circuit Diagram](images/Circuit_diagram.jpeg)
+
+---
+
+## Hardware Connections
+
+| Component | ESP32 Pin |
+|---|---|
+| PN532 SCK | GPIO 18 |
+| PN532 MISO | GPIO 19 |
+| PN532 MOSI | GPIO 23 |
+| PN532 SS | GPIO 5 |
+| LCD SDA | GPIO 21 |
+| LCD SCL | GPIO 22 |
+| Buzzer | GPIO 2 |
+| LED | GPIO 15 |
+
+---
+
 ## Project Images
 
 ### Hardware Setup
@@ -95,8 +119,9 @@ NFC Card → PN532 Reader → ESP32 Processing → LCD Display → Google Sheets
 
 ## Demo Video
 
-🎥 Watch Full Project Demonstration Here:  
-https://drive.google.com/drive/folders/1gvkyzoMu4XFRcDnWOnLlBFmiznTZaqVn?usp=sharing
+🎥 Watch Full Project Demonstration Here:
+
+[▶ Watch Demo Video](https://drive.google.com/drive/folders/1gvkyzoMu4XFRcDnWOnLlBFmiznTZaqVn?usp=sharing)
 
 ---
 
@@ -107,6 +132,15 @@ https://drive.google.com/drive/folders/1gvkyzoMu4XFRcDnWOnLlBFmiznTZaqVn?usp=sha
 - Automated access control
 - Secure entry management
 - IoT-based monitoring systems
+
+---
+
+## Libraries Used
+
+- Adafruit PN532 Library
+- LiquidCrystal_I2C
+- WiFi.h
+- HTTPClient.h
 
 ---
 
